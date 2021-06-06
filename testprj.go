@@ -1,7 +1,7 @@
 package testprj
 
 
-func Calc111(v int) int {
-
-return v*v
+func Calc111(v string) error {
+  fmt.Println(v)
+return nil
 }
